@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import IdCard from './components/IdCard'
+import Greetings from './components/greetings'
 
 class App extends Component {
   render() {
@@ -15,8 +16,23 @@ class App extends Component {
         birth="07/05/1988"
         />
 
+        <IdCard 
+          lastName='Delores '
+          firstName='Obrien'
+          gender='female'
+          height="1.72"
+          birth="11/05/1988"
+          image="https://randomuser.me/api/portraits/women/44.jpg"
+        />
+
         <h1>Greetings</h1>
-        {/* TODO: Use the Greetings component */}
+        <Greetings
+          text='Hallo Ludwig'
+        />
+
+        <Greetings
+          text='Bonjour François'
+        />
       </div>
     );
   }

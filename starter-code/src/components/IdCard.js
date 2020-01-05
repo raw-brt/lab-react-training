@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class IdCard extends React.Component {
+class IdCard extends Component {
   constructor(props) {
     super(props)
     this.state = {
