@@ -1,3 +1,5 @@
+/* General */
+
 body {
   margin: 0;
   padding: 0;
@@ -13,12 +15,24 @@ code {
     monospace;
 }
 
-.idCard {
+/* Components */
+
+.idCard, .greetings-box, .random-box {
+  display: flex;
   border: 1px solid #000;
   display: flex;
+  margin-bottom: 10px;
 }
 
-.greetings-box {
+.box-color {
+  width: 100%;
+  height: 100px;
   border: 1px solid #000;
   margin-bottom: 10px;
+}
+
+/* IdCard elements */
+img {
+  max-width: 200px;
+  height: auto;
 }
