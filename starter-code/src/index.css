@@ -31,8 +31,48 @@ code {
   margin-bottom: 10px;
 }
 
+.credit-card {
+  width: 400px;
+  height: 250px;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+
 /* IdCard elements */
 img {
   max-width: 200px;
   height: auto;
+}
+
+/* Credit Card */
+.card-logo img {
+  width: 75px;
+}
+
+.card-logo {
+  text-align: right;
+  display: block;
+  padding: 20px;
+}
+
+.card-number {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px;
+}
+
+.card-data {
+  display: block;
+  margin: 20px;
+}
+
+.card-data p {
+  font-weight: 600;
+}
+
+/* Rating */
+.stars {
+  font-size: 24px;
+  color: #000;
 }

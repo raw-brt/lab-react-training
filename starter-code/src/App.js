@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import './index.css'
 import IdCard from './components/IdCard'
 import Greetings from './components/greetings'
 import Random from './components/Random'
 import BoxColor from './components/BoxColor'
+import CreditCard from './components/CreditCard';
+import Rating from './components/Rating'
 
 class App extends Component {
   render() {
@@ -59,6 +62,46 @@ class App extends Component {
           g="255"
           b="0"
         />
+
+      <h1>CreditCard</h1>
+
+        <CreditCard
+          hex="#11a998"
+          logo="https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/img/visa.png"
+          number="✡︎✡︎✡︎✡︎ ✡︎✡︎✡︎✡︎ ✡︎✡︎✡︎✡︎ 9935"
+          info="03 2021"
+          bank="BBVA"
+          owner="Roberto Díaz"
+          fontColor="#fff"
+        />
+
+        <CreditCard
+          hex="#edeeed"
+          logo="https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/img/master-card.svg"
+          number="✡︎✡︎✡︎✡︎ ✡︎✡︎✡︎✡︎ ✡︎✡︎✡︎✡︎ 0995"
+          info="03 2021"
+          bank="N26"
+          owner="Maxence Bouret"
+          fontColor="#000"
+        />
+
+        <CreditCard
+          hex="#ddba55"
+          logo="https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/img/master-card.svg"
+          number="✡︎✡︎✡︎✡︎ ✡︎✡︎✡︎✡︎ ✡︎✡︎✡︎✡︎ 6984"
+          info="12/19"
+          bank="Name of the bank"
+          owner="Pedro Sánchez"
+          fontColor="#fff"
+        />  
+
+        <h1>Rating</h1>
+        <Rating rating="0" />
+        <Rating rating="1" />
+        <Rating rating="2" />
+        <Rating rating="3" />
+        <Rating rating="4" />
+        <Rating rating="5" />
       </div>
     );
   }
