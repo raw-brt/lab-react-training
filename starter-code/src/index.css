@@ -49,6 +49,14 @@ code {
   display: flex;
 }
 
+.like-button button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: green;
+  color: white;
+}
+
 /* IdCard elements */
 img {
   max-width: 200px;
