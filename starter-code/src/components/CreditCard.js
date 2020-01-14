@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CreditCard = (props) => {
+const CreditCard = props => {
   return(
     <div className="credit-card" style={{background: props.hex}}>
       <div className="card-logo">
